@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.abc{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(./kerala-tourism.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+.abd{
+    height: 200vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(9,77,0,0.65),rgba(9,0,77,0.65)), url(./bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .3s;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width:140px;
+    height:60px;
+    border: 0;
+    outline: 0;
+    margin-top: -2%;
+    margin-right: 10%;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    
+    
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: yellow;
+}
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+
+}
+.bu{
+
+
+    padding: 10px 20px;
+    margin-left: 10%;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    
+    transition: all 0.5s;
+}
+.bu:hover{
+    background-color: yellow;
+}
+.card{
+    margin:20px;
+    border: 3px solid red;
+    height: 450px;
+}
+.card-img-top{
+    width:100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card:hover{
+    
+    border: 3px solid red;
+    margin-top: 15%;
+    
+}
